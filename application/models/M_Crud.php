@@ -45,4 +45,9 @@ class M_Crud extends CI_Model {
         $this->db->where('id_crud', $id);
         $this->db->delete('crud');
     }
+
+    function deletePelanggaran($id){
+        $this->db->where('id_pelanggaran', $id);
+        $this->db->delete('pelanggaran');
+    }
 }

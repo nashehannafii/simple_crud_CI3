@@ -93,5 +93,11 @@ class Crud extends CI_Controller {
 		$this->M_Crud->deleteData($id);
 		redirect(base_url());
 	}
+
+	public function deletePelanggaran($id)
+	{
+		$this->M_Crud->deletePelanggaran($id);
+		redirect(base_url());
+	}
 	
 }

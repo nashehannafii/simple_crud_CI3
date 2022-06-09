@@ -28,7 +28,7 @@
                 <td><?= $no ?></td>
                 <td><?= $data['id_crud'] ?></td>
                 <td><?= $data['pelanggaran'] ?></td>
-                <td><a href="<?= base_url('/crud/delete') ?>">Delete</a></td>
+                <td><a href="<?= base_url('/crud/deletePelanggaran') ?>/<?= $data['id_pelanggaran']?>">Delete</a></td>
             </tr>
         <?php
             $no++;
